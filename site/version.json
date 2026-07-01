@@ -1,0 +1,11 @@
+{
+  "projet": "Site statique Catal-Log",
+  "contexte": "EC06 - ASRC - RNCP39611BC02",
+  "organisation": "Catal-Log",
+  "auteur": "Sensei",
+  "version": "1.0.0",
+  "date": "2026-06-30",
+  "environnement": "recette",
+  "commit": "local",
+  "image": "ghcr.io/<owner>/<repo>:1.0.0"
+}
