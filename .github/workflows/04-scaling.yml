@@ -1,0 +1,49 @@
+name: 04 - Simulation de scaling (Docker Compose)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  scale:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Vérifier la configuration Compose
+        run: docker compose config
+
+      - name: Démarrer le service web en 2 instances
+        run: docker compose up -d --build --scale web=2
+
+      - name: Laisser le temps aux conteneurs de démarrer
+        run: sleep 5
+
+      - name: Lister les conteneurs en cours d'exécution
+        run: docker compose ps
+
+      - name: Vérifier qu'il y a bien 2 instances du service web
+        run: |
+          COUNT=$(docker compose ps -q web | wc -l)
+          echo "Instances web en cours d'exécution : $COUNT"
+          test "$COUNT" -eq 2
+
+      - name: Résumé scaling
+        if: always()
+        run: |
+          echo "## Simulation de scaling" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Commande exécutée : \`docker compose up -d --build --scale web=2\`" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Instances du service web demandées : 2" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          docker compose ps >> $GITHUB_STEP_SUMMARY 2>&1 || true
+          echo '```' >> $GITHUB_STEP_SUMMARY
+
+      - name: Nettoyage
+        if: always()
+        run: docker compose down -v || true
