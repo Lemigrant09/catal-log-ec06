@@ -31,4 +31,5 @@ Cette étape simule une **recette** : on valide un artefact existant dans un env
 
 Le test HTTP réalisé sur l'image téléchargée s'est terminé avec succès : la page et le fichier de version sont servis correctement par le conteneur issu de l'image GHCR. La validation recette est donc **concluante**, ce qui autorise le passage à l'étape de promotion.
 
-> 📷 **Insérer ici :** capture du résumé « Validation recette simulée » du run `03-promote`, montrant l'image source et le digest observé
+<img width="1911" height="692" alt="image" src="https://github.com/user-attachments/assets/63da1d49-ab78-49b6-9373-f7de51260f93" />
+
