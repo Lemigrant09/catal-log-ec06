@@ -55,7 +55,7 @@ catal-log-ec06-web-1   projet-cicd-nginx:local   web       running
 catal-log-ec06-web-2   projet-cicd-nginx:local   web       running
 ```
 
-> 📷 **Insérer ici :** capture du résumé « Simulation de scaling » du run `04-scaling`, montrant `catal-log-ec06-web-1` et `catal-log-ec06-web-2`.
+<img width="1363" height="772" alt="image" src="https://github.com/user-attachments/assets/339975ec-691a-4318-bfd3-60e4249dc1cc" />
 
 Le service `web` ne publie pas de port fixe sur l'hôte (il utilise `expose` et non `ports`). C'est cette absence de port mappé qui permet de démarrer plusieurs instances sans conflit — principe de base de la mise à l'échelle horizontale.
 
