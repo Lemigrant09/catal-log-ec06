@@ -28,8 +28,7 @@
 
 **Résultat observé :** run en succès, résumé « Test HTTP : OK ». Le conteneur répond correctement en HTTP, le test valide donc à la fois la construction de l'image et le bon fonctionnement du site servi par Nginx.
 
-> ![Uploading image.png…]()
-
+<img width="1641" height="967" alt="image" src="https://github.com/user-attachments/assets/92670a7f-b0ae-4750-a782-38b8d929da6e" />
 
 ## 2. Test local Docker (justification de non-réalisation)
 
