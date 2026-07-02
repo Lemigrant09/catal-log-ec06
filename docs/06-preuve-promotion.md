@@ -19,7 +19,7 @@
 | Dépendance | S'exécute uniquement après la validation recette (`needs: validate-recette`) |
 | Tag source | `latest` |
 | Tag cible | `production-simulee` |
-| Lien du run | *(coller l'URL du run vert 03-promote)* |
+| Lien du run | https://github.com/Lemigrant09/catal-log-ec06/actions/runs/28495260545 |
 
 ## 2. Déroulement
 
