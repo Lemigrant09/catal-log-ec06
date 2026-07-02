@@ -55,12 +55,12 @@ Les trois points obligatoires sont traités en détail dans `07-securite-minimal
 | Preuve | Emplacement |
 |---|---|
 | Dépôt GitHub | https://github.com/Lemigrant09/catal-log-ec06 |
-| Run build + test HTTP | *(lien run 01-ci)* — voir `03-fiche-tests.md` |
-| Publication GHCR + digest | *(lien run 02-publish)* — voir `04-preuve-image.md` |
-| Image GHCR (tags + digest) | *(lien page GHCR)* — voir `04-preuve-image.md` |
-| Validation recette | *(lien run 03-promote)* — voir `05-preuve-recette.md` |
-| Promotion sans rebuild | *(lien run 03-promote)* — voir `06-preuve-promotion.md` |
-| Simulation de scaling | *(lien run 04-scaling)* — voir `03-fiche-tests.md` |
+| Run build + test HTTP | voir `03-fiche-tests.md` |
+| Publication GHCR + digest | voir `04-preuve-image.md` |
+| Image GHCR (tags + digest) | voir `04-preuve-image.md` |
+| Validation recette | voir `05-preuve-recette.md` |
+| Promotion sans rebuild | voir `06-preuve-promotion.md` |
+| Simulation de scaling | voir `03-fiche-tests.md` |
 | Digest de l'image | `sha256:4fe660ae6e6eccd0caf23af9ade895cbc2550568628b524b30889768d7b455b4` |
 
 ## 8. Difficultés rencontrées et apprentissages
