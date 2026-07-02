@@ -19,7 +19,7 @@
 | Déclenchement | Manuel (`workflow_dispatch`) |
 | Tag source validé | `latest` |
 | Digest observé | `sha256:42a4fda3833e9eb9f3b24374cfa2e1df338a94ef36a8dcbeb4f473d2ab4b64ec` |
-| Lien du run | *(coller l'URL du run vert 03-promote)* |
+| Lien du run | https://github.com/Lemigrant09/catal-log-ec06/actions/workflows/03-promote.yml |
 
 ## 2. Déroulement
 
