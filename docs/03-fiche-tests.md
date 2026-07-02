@@ -45,7 +45,7 @@ La simulation de mise à l'échelle a été exécutée réellement, dans un work
 | Workflow | `04-scaling.yml` |
 | Commande | `docker compose up -d --build --scale web=2` |
 | Contrôle | Le workflow échoue si le nombre d'instances `web` n'est pas exactement 2 |
-| Lien du run | *(coller l'URL du run vert 04-scaling)* |
+| Lien du run | https://github.com/Lemigrant09/catal-log-ec06/actions/workflows/04-scaling.yml |
 
 **Résultat observé — deux instances du service `web` en parallèle :**
 
