@@ -19,8 +19,8 @@
 | Digest | `sha256:4fe660ae6e6eccd0caf23af9ade895cbc2550568628b524b30889768d7b455b4` |
 | Workflow de publication | `02-publish-ghcr.yml` |
 | Visibilité | Public |
-| Lien de la page GHCR | *(coller le lien de la page du package)* |
-| Lien du run de publication | *(coller l'URL du run vert 02-publish-ghcr)* |
+| Lien de la page GHCR | https://github.com/Lemigrant09/catal-log-ec06/pkgs/container/catal-log-ec06 |
+| Lien du run de publication | https://github.com/Lemigrant09/catal-log-ec06/actions/runs/28494204901 |
 
 <img width="1324" height="873" alt="image" src="https://github.com/user-attachments/assets/09538187-08be-4854-8ef9-e0567295001c" />
 
