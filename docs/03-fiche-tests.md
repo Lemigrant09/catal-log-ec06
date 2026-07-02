@@ -16,7 +16,7 @@
 |---|---|
 | Workflow | `01-ci.yml` — job `build-and-test` |
 | Déclenchement | Automatique à chaque `push` et `pull_request` |
-| Lien du run | *(coller l'URL du run vert 01-ci)* |
+| Lien du run | [*(coller l'URL du run vert 01-ci)*](https://github.com/Lemigrant09/catal-log-ec06/actions/workflows/01-ci.yml) |
 
 **Ce qui est testé :**
 
