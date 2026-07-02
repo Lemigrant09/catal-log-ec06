@@ -43,7 +43,7 @@ Deux éléments prouvent que la promotion s'est faite **sans reconstruction** :
 <img width="1304" height="688" alt="image" src="https://github.com/user-attachments/assets/52cad3af-3bfe-4070-bada-df9dee2493db" />
 
 
-> 📷 **Insérer ici :** capture de la page GHCR « Versions », montrant les trois tags `latest`, `production-simulee` et `sha-...` sur la même version.
+Preuve : [https://github.com/... (l'URL que tu copies)](https://github.com/Lemigrant09/catal-log-ec06/pkgs/container/catal-log-ec06)
 
 ## 4. Intérêt de cette approche
 
