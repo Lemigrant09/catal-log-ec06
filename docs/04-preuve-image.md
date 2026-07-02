@@ -24,7 +24,7 @@
 
 <img width="1324" height="873" alt="image" src="https://github.com/user-attachments/assets/09538187-08be-4854-8ef9-e0567295001c" />
 
-> 📷 **Insérer ici :** capture de la page GHCR de l'image, montrant le nom `ghcr.io/lemigrant09/catal-log-ec06` et ses tags.
+<img width="1007" height="701" alt="image" src="https://github.com/user-attachments/assets/6c0226ef-b72a-40cf-b388-2364b27a92b7" />
 
 ## 2. Rôle du tag et du digest
 
