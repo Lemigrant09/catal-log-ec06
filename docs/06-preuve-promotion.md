@@ -40,7 +40,8 @@ Deux éléments prouvent que la promotion s'est faite **sans reconstruction** :
 1. Le résumé du run affiche explicitement **« Mode : promotion sans rebuild »**, et les étapes du job ne contiennent aucune commande `docker build`.
 2. Dans GHCR, le tag `production-simulee` apparaît sur **la même version d'image** que `latest` et `sha-...` : les trois tags partagent le même digest. Un tag posé sur une image existante ne crée pas de nouvelle image.
 
-> 📷 **Insérer ici :** capture du résumé « Promotion production-simulee » du run `03-promote` (Source, Cible, « Mode : promotion sans rebuild »).
+<img width="1304" height="688" alt="image" src="https://github.com/user-attachments/assets/52cad3af-3bfe-4070-bada-df9dee2493db" />
+
 
 > 📷 **Insérer ici :** capture de la page GHCR « Versions », montrant les trois tags `latest`, `production-simulee` et `sha-...` sur la même version.
 
