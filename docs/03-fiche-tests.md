@@ -28,7 +28,8 @@
 
 **Résultat observé :** run en succès, résumé « Test HTTP : OK ». Le conteneur répond correctement en HTTP, le test valide donc à la fois la construction de l'image et le bon fonctionnement du site servi par Nginx.
 
-> 📷 **Insérer ici :** capture du run `01-ci` en succès, montrant le résumé « CI Projet CICD » avec « Test HTTP : OK ».
+> ![Uploading image.png…]()
+
 
 ## 2. Test local Docker (justification de non-réalisation)
 
